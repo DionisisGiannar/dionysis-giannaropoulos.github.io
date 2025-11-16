@@ -156,7 +156,7 @@ main {
 
 @media (max-width: 900px) {
     .page{
-        padding: 160px 30px;
+        padding: 200px 30px;
     }
     main {
     grid-template-columns: minmax(0, 1fr);
@@ -164,12 +164,27 @@ main {
     header {
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    top: 0px;
+    padding-left:  0px;
+    padding-right: 0px;
+    border: none;
     }
     .nav {
         justify-content: center;
+        border:none !important;
 
+    }
+    .nav-dock{
+        border-radius: 999px;
+        padding: 0px 0px;
+    }
+    .hero-top{
+        flex-direction: column
+    }
+    .hero-links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
     }
 
     
